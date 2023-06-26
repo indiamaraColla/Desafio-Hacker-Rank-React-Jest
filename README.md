@@ -1,72 +1,83 @@
-# React: Teams and Channels List Application
+# React: Aplicativo de Lista de Equipes e Canais
 
-Complete a partially completed React teams and channel list application. Certain core React functionalities have already been implemented. Complete the application as shown below in order to pass all the unit tests.
+Conclua um aplicativo de lista de canais e equipes React parcialmente concluído. Certas funcionalidades principais do React já foram implementadas. Conclua o aplicativo conforme mostrado abaixo para passar em todos os testes de unidade.
 
 ![](https://hrcdn.net/s3_pub/istreet-assets/u0qgNojkcOna3LQygHy6Iw/teams-and-channels.gif)
 
-The application has 2 components:
+A aplicação tem 2 componentes:
 
-*   The TeamList component, which presents a list of teams and an input to add a new team.
-*   The Team component, which displays a list of channels for each team and an input to add a new channel.
+- O componente TeamList, que apresenta uma lista de equipes e uma entrada para adicionar uma nova equipe.
+- O componente Equipe, que exibe uma lista de canais para cada equipe e uma entrada para adicionar um novo canal.
 
-The application has the following functionalities:
+O aplicativo possui as seguintes funcionalidades:
 
-*   For the TeamList component:
-    *   Each team in the teams array has the following keys:
+- Para o componente TeamList:
 
-        *   name: The name of the team. (String)
+  - Cada equipe na matriz de equipes possui as seguintes chaves:
 
-        *   channels: The list of channels belonging to a team. (Channel Array)
+    - nome: O nome da equipe. (Corda)
 
-    *   Initially, the "Add Team" button is disabled.
-    *   It becomes enabled only when a **unique**, valid team name having at least one character is entered in the input.
-    *   Upon clicking the enabled "Add Team" button, the team is added to the Teams List.
-*   For the Team component:
-    *   Each channel in a team has the following keys:
+    - canais: A lista de canais pertencentes a uma equipe. (matriz de canais)
 
-        *   name: The name of the channel. (String)
+  - Inicialmente, o botão "Adicionar equipe" está desabilitado.
+  - Torna-se ativado apenas quando um nome de equipe válido **exclusivo** com pelo menos um caractere é inserido na entrada.
+  - Ao clicar no botão habilitado "Adicionar Equipe", a equipe é adicionada à Lista de Equipes.
 
-        *   id: The unique ID for the channel. (Integer)
+- Para o componente Equipe:
 
-    *   Initially, the "Add Channel" button is disabled.
-    *   It becomes enabled only when a **unique**, valid channel name having at least one character is entered in the input.
-    *   Upon clicking the enabled "Add Channel" button, the channel is added to the Team component.
-    *   While adding a new channel, a new unique incremental ID property has to be provided.
-    *   Clicking the _delete_ button on any channel removes it from the list.
+  - Cada canal em uma equipe possui as seguintes chaves:
 
-The following data-testid attributes are required in the component for the tests to pass:
+    - nome: O nome do canal. (Corda)
 
-*   The div with the list of teams should have the data-testid attribute 'team-list'.
-*   The lists of channels for each team should have the data-testid attributes 'channel-list-0', 'channel-list-1', and so on.
-*   The 'Add Team' button should have the data-testid attribute 'add-team-btn'.
-*   Each 'Add Channel' button should have the data-testid attribute 'add-channel-btn-0', 'add-channel-btn-1', and so on.
-*   The 'Enter Team Name' input should have the data-testid attribute 'team-name-input'.
-*   Each 'Enter Channel Name' input should have the data-testid attribute 'channel-name-input-0', 'channel-name-input-1', and so on.
-*   Each _delete_ button should have the data-testid attribute 'remove-channel-button-00', 'remove-channel-button-01', and so on, denoting first the team id and then the channel id.
+    - id: O ID exclusivo do canal. (Inteiro)
 
-Please note that component has the above data-testid attributes for test cases and certain classes and ids for rendering purposes. It is advised not to change them.
+  - Inicialmente, o botão "Adicionar canal" está desabilitado.
 
-## Environment 
+- Torna-se habilitado apenas quando um nome de canal válido **exclusivo** com pelo menos um caractere é inserido na entrada.
+  - Ao clicar no botão "Adicionar canal" habilitado, o canal é adicionado ao componente Equipe.
+  - Ao adicionar um novo canal, uma nova propriedade de ID incremental exclusiva deve ser fornecida.
+  - Clicar no botão _excluir_ em qualquer canal o remove da lista.
+
+Os seguintes atributos data-testid são necessários no componente para que os testes sejam aprovados:
+
+- O div com a lista de equipes deve ter o atributo data-testid 'team-list'.
+- As listas de canais para cada equipe devem ter os atributos data-testid 'channel-list-0', 'channel-list-1' e assim por diante.
+- O botão 'Adicionar equipe' deve ter o atributo data-testid 'add-team-btn'.
+- Cada botão 'Adicionar canal' deve ter o atributo data-testid 'add-channel-btn-0', 'add-channel-btn-1' e assim por diante.
+- A entrada 'Enter Team Name' deve ter o atributo data-testid 'team-name-input'.
+- Cada entrada 'Enter Channel Name' deve ter o atributo data-testid 'channel-name-input-0', 'channel-name-input-1' e assim por diante.
+- Cada botão _delete_ deve ter o atributo data-testid 'remove-channel-button-00', 'remove-channel-button-01' e assim por diante, denotando primeiro o ID da equipe e depois o ID do canal.
+
+Observe que o componente tem os atributos data-testid acima para casos de teste e certas classes e IDs para fins de renderização. É aconselhável não alterá-los.
+
+## Environment
 
 - React Version: 16.13.1
 - Node Version: 14(LTS)
 - Default Port: 8000
 
-## Project Specifications 
+## Project Specifications
 
 **Read-Only Files**
+
 - `src/App.test.js`
 
 **Commands**
-- run: 
+
+- run:
+
 ```bash
 npm start
 ```
-- install: 
+
+- install:
+
 ```bash
 npm install
 ```
-- test: 
+
+- test:
+
 ```bash
 npm test
 ```

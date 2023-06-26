@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="6" errors="0" time="8.934">
+  <testsuite name="Teams and Channel List Application" errors="0" failures="6" skipped="0" timestamp="2023-06-24T00:23:55" time="5.068" tests="6">
+    <testcase classname="Teams and Channel List Application add team and add channel buttons should be disabled initially" name="Teams and Channel List Application add team and add channel buttons should be disabled initially" time="0.096">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false
+    at Object.&lt;anonymous&gt; (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\src\App.test.js:56:33)
+    at Promise.then.completed (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:60:9)
+    at run (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\runTest.js:475:34)
+    at TestRunner.runTests (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\index.js:101:12)
+    at TestScheduler.scheduleTests (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\TestScheduler.js:333:13)
+    at runJest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\runJest.js:404:19)
+    at _run10000 (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\cli\index.js:320:7)
+    at runCLI (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\cli\index.js:173:3)
+    at Object.run (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Teams and Channel List Application add team button should be enabled only if data entered in input is correct and clicking on button should add it to the list of teams" name="Teams and Channel List Application add team button should be enabled only if data entered in input is correct and clicking on button should add it to the list of teams" time="0.055">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 3
+Received: 2
+    at Object.&lt;anonymous&gt; (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\src\App.test.js:66:38)
+    at Promise.then.completed (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:60:9)
+    at run (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\runTest.js:475:34)
+    at TestRunner.runTests (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\index.js:101:12)
+    at TestScheduler.scheduleTests (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\TestScheduler.js:333:13)
+    at runJest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\runJest.js:404:19)
+    at _run10000 (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\cli\index.js:320:7)
+    at runCLI (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\cli\index.js:173:3)
+    at Object.run (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Teams and Channel List Application add team button should be disabled if data entered in input is empty or team name already exists" name="Teams and Channel List Application add team button should be disabled if data entered in input is empty or team name already exists" time="0.067">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false
+    at Object.&lt;anonymous&gt; (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\src\App.test.js:75:33)
+    at Promise.then.completed (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:60:9)
+    at run (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\runTest.js:475:34)
+    at TestRunner.runTests (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\index.js:101:12)
+    at TestScheduler.scheduleTests (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\TestScheduler.js:333:13)
+    at runJest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\runJest.js:404:19)
+    at _run10000 (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\cli\index.js:320:7)
+    at runCLI (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\cli\index.js:173:3)
+    at Object.run (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Teams and Channel List Application add channel button should be enabled only if data entered in input is correct and clicking on button should add it to the list of channels" name="Teams and Channel List Application add channel button should be enabled only if data entered in input is correct and clicking on button should add it to the list of channels" time="0.054">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 3
+Received: 2
+    at Object.&lt;anonymous&gt; (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\src\App.test.js:85:42)
+    at Promise.then.completed (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:60:9)
+    at run (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\runTest.js:475:34)
+    at TestRunner.runTests (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\index.js:101:12)
+    at TestScheduler.scheduleTests (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\TestScheduler.js:333:13)
+    at runJest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\runJest.js:404:19)
+    at _run10000 (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\cli\index.js:320:7)
+    at runCLI (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\cli\index.js:173:3)
+    at Object.run (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Teams and Channel List Application add channel button should be disabled if data entered in input is empty or channel name already exists" name="Teams and Channel List Application add channel button should be disabled if data entered in input is empty or channel name already exists" time="0.059">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: true
+Received: false
+    at Object.&lt;anonymous&gt; (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\src\App.test.js:94:37)
+    at Promise.then.completed (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:60:9)
+    at run (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\runTest.js:475:34)
+    at TestRunner.runTests (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\index.js:101:12)
+    at TestScheduler.scheduleTests (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\TestScheduler.js:333:13)
+    at runJest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\runJest.js:404:19)
+    at _run10000 (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\cli\index.js:320:7)
+    at runCLI (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\cli\index.js:173:3)
+    at Object.run (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+    </testcase>
+    <testcase classname="Teams and Channel List Application clicking on the remove button should remove the channel from the list" name="Teams and Channel List Application clicking on the remove button should remove the channel from the list" time="0.054">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 1
+Received: 2
+    at Object.&lt;anonymous&gt; (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\src\App.test.js:101:42)
+    at Promise.then.completed (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:60:9)
+    at run (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\runTest.js:475:34)
+    at TestRunner.runTests (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-runner\build\index.js:101:12)
+    at TestScheduler.scheduleTests (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\TestScheduler.js:333:13)
+    at runJest (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\runJest.js:404:19)
+    at _run10000 (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\cli\index.js:320:7)
+    at runCLI (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\@jest\core\build\cli\index.js:173:3)
+    at Object.run (C:\Users\jessi\OneDrive\Área de Trabalho\678a930d-c28d-4fb8-9b88-307c15b1bf8d\node_modules\jest-cli\build\cli\index.js:155:37)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
